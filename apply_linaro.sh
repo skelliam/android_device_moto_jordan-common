@@ -29,6 +29,7 @@ git fetch http://review.cyanogenmod.org/CyanogenMod/android_external_skia refs/c
 echo
 cd ../webkit
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_external_webkit refs/changes/52/26552/1 && git cherry-pick FETCH_HEAD
+echo
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_external_webkit refs/changes/53/26553/1 && git cherry-pick FETCH_HEAD
 echo
 cd ../elfutils
@@ -49,6 +50,9 @@ echo
 cd ../tcpdump
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_external_tcpdump refs/changes/72/26572/1 && git cherry-pick FETCH_HEAD
 echo
+cd ../lsof
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_external_lsof refs/changes/44/26544/1 && git cherry-pick FETCH_HEAD
+echo
 cd ../../frameworks/rs
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_rs refs/changes/58/26558/1 && git cherry-pick FETCH_HEAD
 echo
@@ -63,6 +67,9 @@ git fetch http://review.cyanogenmod.org/CyanogenMod/android_libcore refs/changes
 echo
 cd ../bionic
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_bionic refs/changes/36/26536/1 && git cherry-pick FETCH_HEAD
+echo
+cd ../dalvik/libdex
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_dalvik refs/changes/38/26538/1 && git cherry-pick FETCH_HEAD
 echo
 cd ../system/security
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_system_security refs/changes/64/26564/1 && git cherry-pick FETCH_HEAD
