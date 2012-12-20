@@ -142,7 +142,7 @@ TARGET_MODULES_AP_SOURCE := "system/wlan/ti/WiLink_AP/platforms/os/linux/"
 API_MAKE := \
 	make PREFIX=$(ANDROID_BUILD_TOP)/$(TARGET_OUT_INTERMEDIATES)/kernel_intermediates/build \
 	ARCH=arm \
-	CROSS_COMPILE=$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_PREBUILT_TAG)/toolchain/arm-eabi-4.7-linaro/bin/ \
+	CROSS_COMPILE=$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_PREBUILT_TAG)/toolchain/arm-eabi-4.7-linaro/bin/arm-eabi- \
 	HOST_PLATFORM=zoom2 \
 	KERNEL_DIR=$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ \
 
