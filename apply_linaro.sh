@@ -71,7 +71,7 @@ echo
 cd ../dalvik/libdex
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_dalvik refs/changes/38/26538/1 && git cherry-pick FETCH_HEAD
 echo
-cd ../system/security
+cd ../../system/security
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_system_security refs/changes/64/26564/1 && git cherry-pick FETCH_HEAD
 echo
 cd ../../packages/inputmethods/LatinIME
